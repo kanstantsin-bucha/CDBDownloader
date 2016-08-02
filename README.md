@@ -8,6 +8,43 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```objc
+    [CDBDownloader downloadFileAtURL:URL
+                            progress:nil
+                          completion:^(NSURL * downloadedFileURL, NSError *error) {
+        if (error != nil) {
+            [[NSFileManager new] removeItemAtURL:downloadedFileURL
+                                           error:nil];
+            return;
+        }
+
+        NSLog(@" Download document to URL:\
+              \r\n %@", downloadedFileURL);
+    }];
+```
+
+remember to add section to your app in info.plist file,
+replace www.pdf995.com to your download domain
+
+```
+    <key>NSAppTransportSecurity</key>
+    <dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+    <key>NSExceptionDomains</key>
+    <dict>
+    <key>www.pdf995.com</key>
+    <dict>
+    <key>NSIncludesSubdomains</key>
+    <true/>
+    <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+    <true/>
+    <key>NSTemporaryExceptionMinimumTLSVersion</key>
+    <string>TLSv1.1</string>
+    </dict>
+    </dict>
+    </dict>
+```
 
 ## Requirements
 

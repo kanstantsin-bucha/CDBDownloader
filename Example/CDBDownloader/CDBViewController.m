@@ -7,6 +7,7 @@
 //
 
 #import "CDBViewController.h"
+@import CDBDownloader;
 
 @interface CDBViewController ()
 
@@ -14,16 +15,33 @@
 
 @implementation CDBViewController
 
-- (void)viewDidLoad
-{
+#pragma mark - life cycle -
+
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    NSURL * URL = [NSURL URLWithString:@"http://www.pdf995.com/samples/pdf.pdf"];
+    [self processDownloadingDocumentUsingURL:URL];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - private -
+
+- (void)processDownloadingDocumentUsingURL:(NSURL *)URL {
+    if (URL == nil) {
+        return;
+    }
+    
+    [CDBDownloader downloadFileAtURL:URL
+                           progress:nil
+                         completion:^(NSURL * downloadedFileURL, NSError *error) {
+        if (error != nil) {
+            [[NSFileManager new] removeItemAtURL:downloadedFileURL
+                                           error:nil];
+            return;
+        }
+                     
+        NSLog(@" Download document to URL:\
+        \r\n %@", downloadedFileURL);
+    }];
 }
 
 @end
