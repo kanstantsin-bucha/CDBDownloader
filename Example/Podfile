@@ -1,11 +1,18 @@
+
 use_frameworks!
 
-target 'CDBDownloader_Example' do
-  pod 'CDBDownloader', :path => '../'
+abstract_target 'Pod' do
 
-  target 'CDBDownloader_Tests' do
-    inherit! :search_paths
+ pod 'CDBDownloader', :path => '../'
 
-    
-  end
+    target 'CDBDownloader_Example' do
+        target 'CDBDownloader_Tests' do
+            inherit! :search_paths
+        end
+    end
+    target 'CDBDownloaderMac-Example' do
+        #target 'CDBDownloaderMac-ExampleTests' do
+        #    inherit! :search_paths
+        #end
+    end
 end

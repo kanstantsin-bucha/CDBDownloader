@@ -20,7 +20,7 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - CDBDownloader (1.0.1):
+  - CDBDownloader (1.0.2):
     - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
@@ -32,8 +32,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
-  CDBDownloader: 818d1cddffb5dd3f572b28718b9f02223099757c
+  CDBDownloader: b4c8b8ab85f56b72f08cf093ff4f7137395ed1f0
 
-PODFILE CHECKSUM: f78f15bfc0118e8429bf02b118e7b30fdaba1c16
+PODFILE CHECKSUM: e05a1ead1e21bf9935494a4f173bd1efa72b9532
 
 COCOAPODS: 1.2.0

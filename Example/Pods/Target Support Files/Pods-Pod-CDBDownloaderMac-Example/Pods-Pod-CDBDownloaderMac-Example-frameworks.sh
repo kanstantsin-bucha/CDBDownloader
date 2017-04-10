@@ -89,12 +89,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/CDBDownloader/CDBDownloader.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/AFNetworking-93a4f461/AFNetworking.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/CDBDownloader-OSX/CDBDownloader.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/CDBDownloader/CDBDownloader.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/AFNetworking-93a4f461/AFNetworking.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/CDBDownloader-OSX/CDBDownloader.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

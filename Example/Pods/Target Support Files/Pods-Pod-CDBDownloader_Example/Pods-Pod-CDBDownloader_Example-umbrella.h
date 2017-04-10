@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_CDBDownloader_ExampleVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_CDBDownloader_ExampleVersionString[];
+FOUNDATION_EXPORT double Pods_Pod_CDBDownloader_ExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Pod_CDBDownloader_ExampleVersionString[];
 

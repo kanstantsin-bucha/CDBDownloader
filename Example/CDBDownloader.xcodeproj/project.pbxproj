@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		080B9A6A1E9C02DE00643D2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 080B9A691E9C02DE00643D2E /* AppDelegate.m */; };
+		080B9A6D1E9C02DE00643D2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 080B9A6C1E9C02DE00643D2E /* main.m */; };
+		080B9A701E9C02DE00643D2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 080B9A6F1E9C02DE00643D2E /* ViewController.m */; };
+		080B9A721E9C02DE00643D2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080B9A711E9C02DE00643D2E /* Assets.xcassets */; };
+		080B9A751E9C02DE00643D2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080B9A731E9C02DE00643D2E /* Main.storyboard */; };
+		59C2C4A894C36B3AAF5A9DB8 /* Pods_Pod_CDBDownloader_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B2F72ACB35FDDA3DCF1605 /* Pods_Pod_CDBDownloader_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,7 +27,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		DD67D513EAACF7A797EAF91C /* Pods_CDBDownloader_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1626B1A9978DF543E5244CFA /* Pods_CDBDownloader_Example.framework */; };
+		E5E28E54FA8AA5C30A0A72C5 /* Pods_Pod_CDBDownloaderMac_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F67BEF431132DA40560D8E9F /* Pods_Pod_CDBDownloaderMac_Example.framework */; };
 		F6FFD5AE358E7376E73CAE4B /* Pods_CDBDownloader_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 315453D150EE2482F6C367C1 /* Pods_CDBDownloader_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0718B78C049360FC960F5474 /* Pods-Pod-CDBDownloaderMac-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod-CDBDownloaderMac-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pod-CDBDownloaderMac-Example/Pods-Pod-CDBDownloaderMac-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		080B9A661E9C02DE00643D2E /* CDBDownloaderMac-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CDBDownloaderMac-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		080B9A681E9C02DE00643D2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		080B9A691E9C02DE00643D2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		080B9A6C1E9C02DE00643D2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		080B9A6E1E9C02DE00643D2E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		080B9A6F1E9C02DE00643D2E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		080B9A711E9C02DE00643D2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		080B9A741E9C02DE00643D2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		080B9A761E9C02DE00643D2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1626B1A9978DF543E5244CFA /* Pods_CDBDownloader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDBDownloader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC7FFE28568263250E71C9D /* Pods-CDBDownloader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDBDownloader_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDBDownloader_Tests/Pods-CDBDownloader_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2A79B373F7B3D1B9985F5501 /* Pods-CDBDownloader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDBDownloader_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDBDownloader_Example/Pods-CDBDownloader_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -64,10 +80,23 @@
 		6BA98A382FCB6CD90B6EB145 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9DC455266E9EBB14B640D4FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B1B2F72ACB35FDDA3DCF1605 /* Pods_Pod_CDBDownloader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pod_CDBDownloader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF927B7D8D8343BD6DDB99C2 /* Pods-Pod-CDBDownloader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod-CDBDownloader_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pod-CDBDownloader_Example/Pods-Pod-CDBDownloader_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C82E2EBB58F7C174652DCE5E /* Pods-Pod-CDBDownloaderMac-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod-CDBDownloaderMac-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pod-CDBDownloaderMac-Example/Pods-Pod-CDBDownloaderMac-Example.release.xcconfig"; sourceTree = "<group>"; };
+		DA5C4D67AC6E94AE6FE7AC9B /* Pods-Pod-CDBDownloader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod-CDBDownloader_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pod-CDBDownloader_Example/Pods-Pod-CDBDownloader_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EE647B2BD6F0CB2DEE34267F /* Pods-CDBDownloader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDBDownloader_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDBDownloader_Tests/Pods-CDBDownloader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F67BEF431132DA40560D8E9F /* Pods_Pod_CDBDownloaderMac_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pod_CDBDownloaderMac_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		080B9A631E9C02DE00643D2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E28E54FA8AA5C30A0A72C5 /* Pods_Pod_CDBDownloaderMac_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -75,7 +104,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				DD67D513EAACF7A797EAF91C /* Pods_CDBDownloader_Example.framework in Frameworks */,
+				59C2C4A894C36B3AAF5A9DB8 /* Pods_Pod_CDBDownloader_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,12 +122,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		080B9A671E9C02DE00643D2E /* CDBDownloaderMac-Example */ = {
+			isa = PBXGroup;
+			children = (
+				080B9A681E9C02DE00643D2E /* AppDelegate.h */,
+				080B9A691E9C02DE00643D2E /* AppDelegate.m */,
+				080B9A6E1E9C02DE00643D2E /* ViewController.h */,
+				080B9A6F1E9C02DE00643D2E /* ViewController.m */,
+				080B9A711E9C02DE00643D2E /* Assets.xcassets */,
+				080B9A731E9C02DE00643D2E /* Main.storyboard */,
+				080B9A761E9C02DE00643D2E /* Info.plist */,
+				080B9A6B1E9C02DE00643D2E /* Supporting Files */,
+			);
+			path = "CDBDownloaderMac-Example";
+			sourceTree = "<group>";
+		};
+		080B9A6B1E9C02DE00643D2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				080B9A6C1E9C02DE00643D2E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for CDBDownloader */,
 				6003F5B5195388D20070C39A /* Tests */,
+				080B9A671E9C02DE00643D2E /* CDBDownloaderMac-Example */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				FC33D5611C6622A40972A6D2 /* Pods */,
@@ -110,6 +163,7 @@
 			children = (
 				6003F58A195388D20070C39A /* CDBDownloader_Example.app */,
 				6003F5AE195388D20070C39A /* CDBDownloader_Tests.xctest */,
+				080B9A661E9C02DE00643D2E /* CDBDownloaderMac-Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +177,8 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				1626B1A9978DF543E5244CFA /* Pods_CDBDownloader_Example.framework */,
 				315453D150EE2482F6C367C1 /* Pods_CDBDownloader_Tests.framework */,
+				F67BEF431132DA40560D8E9F /* Pods_Pod_CDBDownloaderMac_Example.framework */,
+				B1B2F72ACB35FDDA3DCF1605 /* Pods_Pod_CDBDownloader_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -189,6 +245,10 @@
 				2A79B373F7B3D1B9985F5501 /* Pods-CDBDownloader_Example.release.xcconfig */,
 				EE647B2BD6F0CB2DEE34267F /* Pods-CDBDownloader_Tests.debug.xcconfig */,
 				1DC7FFE28568263250E71C9D /* Pods-CDBDownloader_Tests.release.xcconfig */,
+				0718B78C049360FC960F5474 /* Pods-Pod-CDBDownloaderMac-Example.debug.xcconfig */,
+				C82E2EBB58F7C174652DCE5E /* Pods-Pod-CDBDownloaderMac-Example.release.xcconfig */,
+				DA5C4D67AC6E94AE6FE7AC9B /* Pods-Pod-CDBDownloader_Example.debug.xcconfig */,
+				BF927B7D8D8343BD6DDB99C2 /* Pods-Pod-CDBDownloader_Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -196,6 +256,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		080B9A651E9C02DE00643D2E /* CDBDownloaderMac-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080B9A791E9C02DE00643D2E /* Build configuration list for PBXNativeTarget "CDBDownloaderMac-Example" */;
+			buildPhases = (
+				B3F4D9E5A733B6739D8CEBC4 /* [CP] Check Pods Manifest.lock */,
+				080B9A621E9C02DE00643D2E /* Sources */,
+				080B9A631E9C02DE00643D2E /* Frameworks */,
+				080B9A641E9C02DE00643D2E /* Resources */,
+				C5CE7267ED462C1FEC6A6714 /* [CP] Embed Pods Frameworks */,
+				F23EBA7255339E47400DA537 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CDBDownloaderMac-Example";
+			productName = "CDBDownloaderMac-Example";
+			productReference = 080B9A661E9C02DE00643D2E /* CDBDownloaderMac-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6003F589195388D20070C39A /* CDBDownloader_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "CDBDownloader_Example" */;
@@ -247,6 +327,11 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Kanstantsin Bucha";
 				TargetAttributes = {
+					080B9A651E9C02DE00643D2E = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 2K9F73F4AY;
+						ProvisioningStyle = Automatic;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -267,11 +352,21 @@
 			targets = (
 				6003F589195388D20070C39A /* CDBDownloader_Example */,
 				6003F5AD195388D20070C39A /* CDBDownloader_Tests */,
+				080B9A651E9C02DE00643D2E /* CDBDownloaderMac-Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		080B9A641E9C02DE00643D2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080B9A721E9C02DE00643D2E /* Assets.xcassets in Resources */,
+				080B9A751E9C02DE00643D2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F588195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -305,7 +400,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDBDownloader_Example/Pods-CDBDownloader_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pod-CDBDownloader_Example/Pods-Pod-CDBDownloader_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3ACB4BD4361C343FE337BC67 /* [CP] Check Pods Manifest.lock */ = {
@@ -335,7 +430,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDBDownloader_Example/Pods-CDBDownloader_Example-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pod-CDBDownloader_Example/Pods-Pod-CDBDownloader_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AFF04B9F3749839D6DF2503A /* [CP] Embed Pods Frameworks */ = {
@@ -351,6 +446,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDBDownloader_Tests/Pods-CDBDownloader_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3F4D9E5A733B6739D8CEBC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5CE7267ED462C1FEC6A6714 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pod-CDBDownloaderMac-Example/Pods-Pod-CDBDownloaderMac-Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CCC15C3F833E2820FE379C41 /* [CP] Copy Pods Resources */ = {
@@ -383,9 +508,34 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		F23EBA7255339E47400DA537 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pod-CDBDownloaderMac-Example/Pods-Pod-CDBDownloaderMac-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		080B9A621E9C02DE00643D2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080B9A701E9C02DE00643D2E /* ViewController.m in Sources */,
+				080B9A6D1E9C02DE00643D2E /* main.m in Sources */,
+				080B9A6A1E9C02DE00643D2E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -415,6 +565,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		080B9A731E9C02DE00643D2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				080B9A741E9C02DE00643D2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		6003F596195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -434,6 +592,61 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		080B9A771E9C02DE00643D2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0718B78C049360FC960F5474 /* Pods-Pod-CDBDownloaderMac-Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2K9F73F4AY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "CDBDownloaderMac-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.truebucha.CDBDownloaderMac-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		080B9A781E9C02DE00643D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C82E2EBB58F7C174652DCE5E /* Pods-Pod-CDBDownloaderMac-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2K9F73F4AY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "CDBDownloaderMac-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.truebucha.CDBDownloaderMac-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -509,7 +722,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3914F0CE888054694E12DDF9 /* Pods-CDBDownloader_Example.debug.xcconfig */;
+			baseConfigurationReference = DA5C4D67AC6E94AE6FE7AC9B /* Pods-Pod-CDBDownloader_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -525,7 +738,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A79B373F7B3D1B9985F5501 /* Pods-CDBDownloader_Example.release.xcconfig */;
+			baseConfigurationReference = BF927B7D8D8343BD6DDB99C2 /* Pods-Pod-CDBDownloader_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -586,6 +799,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		080B9A791E9C02DE00643D2E /* Build configuration list for PBXNativeTarget "CDBDownloaderMac-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080B9A771E9C02DE00643D2E /* Debug */,
+				080B9A781E9C02DE00643D2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "CDBDownloader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

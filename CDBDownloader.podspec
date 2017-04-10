@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CDBDownloader'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Lightweight file downloader with progress'
 
 # This description is used to generate tags and improve search results.
@@ -37,6 +37,6 @@ Pod::Spec.new do |s|
   # }
 
   s.public_header_files = 'CDBDownloader/Classes/***.h'
-  s.frameworks = 'UIKit'
+  s.frameworks = 'Foundation'
   s.dependency 'AFNetworking', '~> 2.3'
 end
