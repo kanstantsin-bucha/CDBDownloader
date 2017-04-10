@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CDBDownloader'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Lightweight file downloader with progress'
 
 # This description is used to generate tags and improve search results.
@@ -28,6 +28,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/truebucha'
 
   s.ios.deployment_target = '7.0'
+  s.osx.deployment_target = '10.10'
 
   s.source_files = 'CDBDownloader/Classes/***'
   
