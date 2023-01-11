@@ -1,3 +1,5 @@
+It was archived. Please write to me at kanstantsin.bucha@icloud.com in case any issues occur.
+
 # CDBDownloader
 
 [![CI Status](http://img.shields.io/travis/Kanstantsin Bucha/CDBDownloader.svg?style=flat)](https://travis-ci.org/Kanstantsin Bucha/CDBDownloader)
